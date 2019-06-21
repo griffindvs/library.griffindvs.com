@@ -8,28 +8,9 @@ body {
   position: relative;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   font-weight: 400;
   background-color: #161616;
-}
-
-.nav-link {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.nav-link:hover {
-  color: #5183ef;
-  text-decoration: none;
-}
-
-.nav-link:active {
-  color: #5183ef;
-  text-decoration: none;
-}
-
-.nav-logo {
-  color: #ffffff !important;
 }
 
 a {
@@ -100,8 +81,38 @@ h2 {
   color: white;
 }
 
+.nav-button {
+  width: 100px;
+  padding: 10px;
+  margin-left: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.user-dropdown {
+  height: 46px;
+  margin-top: .49px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.image-cropper {
+  margin-left: 5px;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
 .user-avatar {
   display: inline;
-  float: left;
-  width: 30px;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.nav-username {
+  padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
